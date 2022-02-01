@@ -1,0 +1,15 @@
+- hosts: local
+
+  tasks:
+    # - name: Check that sudo works
+    #   shell: "echo 'sudo works'"
+    #   become: yes
+    #   changed_when: False
+
+    # - name: Check ansible_facts
+    #   debug:
+    #     var: ansible_facts
+
+    - name: Check ansible_user_id
+      debug:
+        var: ansible_user_id
