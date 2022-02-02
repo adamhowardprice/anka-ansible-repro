@@ -16,7 +16,7 @@ ok: [localhost] => {
     "ansible_user_id": "butterfly"
 }
 ```
-- From host machine, run `anka run -w "/Users/butterfly/anka-ansible-repro" 12.2.0-arm bash -c './script/bootstrap'`.
+- From host machine, run `anka run -w "/Users/butterfly/anka-ansible-repro" 12.2.0-intel bash -c './script/bootstrap'`.
 
 Expected Result:
 ```
